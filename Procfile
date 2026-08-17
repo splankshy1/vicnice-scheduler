@@ -1,0 +1,1 @@
+web: gunicorn splankshy_scheduler.wsgi
