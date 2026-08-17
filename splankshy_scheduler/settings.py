@@ -1,10 +1,10 @@
- from pathlib import Path
+from pathlib import Path
 import os
 import dj_database_url
 
 BASE_DIR = Path(__file__).resolve().parent.parent
 
-SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-*c0#gw=dn2+qx0=g8i*hptnq-xtc5gq=22ysvq*a+0$kiu6)mg')
+SECRET_KEY = os.environ.get('SECRET_KEY', 'django-insecure-change-me')
 
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
@@ -71,7 +71,6 @@ AUTH_PASSWORD_VALIDATORS = [
 LANGUAGE_CODE = 'en-us'
 TIME_ZONE = 'Africa/Lagos'
 USE_I18N = True
-TIME_ZONE = 'Africa/Lagos'
 USE_TZ = True
 
 STATIC_URL = '/static/'
